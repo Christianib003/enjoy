@@ -21,7 +21,7 @@ function Veggie() {
   return (
     <div>
       <Wrapper>
-        <h3>Veggie</h3>
+        <h3>Our Vegeterian picks</h3>
         <Splide
           options={{
             perPage: 3,
