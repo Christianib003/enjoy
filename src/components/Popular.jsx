@@ -32,18 +32,16 @@ function Popular() {
           }}
         >
           {popular.map((recipe) => (
-            <>
-              <SplideSlide key={recipe.id}>
-                <Card>
-                  <p>{recipe.title}</p>
-                  <img
-                    src={recipe.image}
-                    alt={recipe.title}
-                  />
-                  <Gradient />
-                </Card>
-              </SplideSlide>
-            </>
+            <SplideSlide key={recipe.id}>
+              <Card>
+                <p>{recipe.title}</p>
+                <img
+                  src={recipe.image}
+                  alt={recipe.title}
+                />
+                <Gradient />
+              </Card>
+            </SplideSlide>
           ))}
         </Splide>
       </Wrapper>
