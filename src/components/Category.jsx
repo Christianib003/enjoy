@@ -1,5 +1,5 @@
-import { FaPizzaSlice, FaHumberger } from 'react-icons/fa';
-import { GiNoodles, GiChopSticks } from 'react-icons/gi';
+import { FaPizzaSlice, FaHamburger } from 'react-icons/fa';
+import { GiNoodles, GiChopsticks } from 'react-icons/gi';
 import styled from 'styled-components';
 
 function Category() {
@@ -10,7 +10,7 @@ function Category() {
         <h4>Italian</h4>
       </div>
       <div>
-        <FaHumberger />
+        <FaHamburger />
         <h4>American</h4>
       </div>
       <div>
@@ -18,7 +18,7 @@ function Category() {
         <h4>Thai</h4>
       </div>
       <div>
-        <GiChopSticks />
+        <GiChopsticks />
         <h4>Japanese</h4>
       </div>
     </div>
